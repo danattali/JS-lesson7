@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function ProductName(id, name, price, category, description) {
+            this.id = id;
+            this.name = name;
+            this.price = price;
+            this.category = category;
+            this.description = description;
+        };
+        let products = [
+            new ProductName(2536, "Sony Professional 32GB XQD", 500, "Storage", "The new XQD cards achieve Max read"),
+            new ProductName(2537, "Lenovo Legion 15.6 Gaming", 4228, "Laptops", "Lenovo Legion 5 pairs unparalleled flexibility with incredible power, offering a plethora of performance options for any gamer in a clean and minimalist design"),
+            new ProductName(2538, "ASUS ROG GL552VW-DH71 15.6", 5300, "Laptops", "Offering a formidable core experience for serious gaming and multitasking on Windows 10 Pro"),
+            new ProductName(2539, "Razer BlackWidow V3 Chroma RGB", 439, "Keyboards", "Experience one of the most iconic mechanical gaming keyboards with the Razer BlackWidow"),
+            new ProductName(2540, "Microsoft Surface Pro 7.0", 5400, "Laptops", "New Surface Pro 7 adapts to the way you work with laptop-to-tablet versatility"),
+        ];
+        console.table(products);
+    </script>
+</body>
+
+</html>

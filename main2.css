@@ -1,0 +1,8 @@
+table,
+head,
+td,
+th {
+    border: 2px solid blue;
+    color: #000;
+    border-collapse: collapse;
+}
